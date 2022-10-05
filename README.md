@@ -1,4 +1,10 @@
 # MyBatis DB연결 세팅
+###
+기업소개 페이지 완료 / header.footer 수정해야함
+
+
+
+
 
 ### 페이징 개수 변경법
 - boards.xml 에 id=paging 부분에 ceil(count(*)/5) totalPage
