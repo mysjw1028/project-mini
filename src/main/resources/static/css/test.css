@@ -1,0 +1,155 @@
+.container { /*전체*/
+	position: relative;
+}
+
+#minetitle { /*타이틀 아래 내용*/
+	color: #bbb;
+	font-size: 15px;
+}
+
+#companytitle { /*회사정보이름*/
+	margin-bottom: 10px;
+}
+
+.companynameform {
+	display: inline-block;
+}
+
+#companynamebox { /*회사명 입력칸*/
+	display: inline-block;
+	width: 1000px;
+	height: 40px;
+}
+
+.Representativeaddressform {
+	display: inline-block;
+}
+
+#Representativeaddress { /*대표자주소*/
+	margin-bottom: 10px;
+}
+
+#Representativeaddresstext { /*재표자 주소 입력칸*/
+	margin-bottom: 10px;
+	width: 490px;
+	height: 40px;
+}
+
+.representativemailform {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#representativemail { /*대표메일*/
+	margin-top: -5px;
+	margin-bottom: 10px;
+}
+
+#representativemailformtext { /*대표메일입력란*/
+	margin-bottom: 10px;
+	width: 490px;
+	height: 40px;
+}
+
+.textboxtitleform { /*사업자번호*/
+	display: inline-block;
+}
+
+#businessnumber { /*사업자번호*/
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#businessnumberform { /*사업자번호*/
+	margin-bottom: 10px;
+	width: 490px;
+	height: 40px;
+}
+
+.regionform { /*지역*/
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#region { /*지역내일 한번 더 수정하기*/
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+
+#form-select { /*지역입력란 */
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	width: 490px;
+	height: 40px;
+}
+
+#companyabouttusform {
+	display: inline-block;
+	resize: none; /* 사용자 임의 변경 불가 */
+	width: 1000px;
+	height: 146px;
+}
+
+.establishform { /*설립연도*/
+	display: inline-block;
+}
+
+#establishnumber { /*설립연도*/
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#establishyear { /*설립연도*/
+	margin-bottom: 10px;
+	margin-left: 3px;
+	width: 490px;
+	height: 40px;
+}
+
+.employeeform { /*지역*/
+	display: inline-block;
+}
+
+#employee { /*직원 수 더 수정하기*/
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#femployeeorm-select { /*직원 수 */
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	width: 490px;
+	height: 40px;
+}
+
+#sel2 {
+	width: 1000px;
+	height: 265px;
+}
+
+#agreecheck {
+	color: #ccc;
+}
+
+#form-check-label {
+	width: 257px;
+	color: #ccc;
+}
+
+.buttonform { /*이용약관*/
+	display: flex;
+}
+
+#buttoncheck2 { /*제출하기*/
+	text-align: center;
+	margin: 0 0 0 590px;
+	padding-top: 8px;
+	border: solid 1px #ccc;
+	border-radius: 25px;
+	width: 130px;
+	height: 44px;
+	background: #ccc;
+	color: #fff;
+}
