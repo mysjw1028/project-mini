@@ -28,7 +28,7 @@
 								<p>설명글입니다</p>
 							</div>
 							<div class="companyimage">
-								<span><a class="imapgesmall" href="/">회사이름</a></span> <span class="proceeding2">진행중</span>
+								<span><a class="imapgesmall1" href="/">회사이름</a></span> <span class="proceeding2">진행중</span>
 							</div>
 						</div>
 					</div>
@@ -43,7 +43,7 @@
 								<p>설명글입니다</p>
 							</div>
 							<div class="companyimage">
-								<span><a class="imapgesmall" href="/">회사이름</a></span> <span class="proceeding2">진행중</span>
+								<span><a class="imapgesmall2" href="/">회사이름</a></span> <span class="proceeding2">진행중</span>
 							</div>
 						</div>
 					</div>
@@ -58,7 +58,7 @@
 								<p>설명글입니다</p>
 							</div>
 							<div class="companyimage">
-								<span><a class="imapgesmall" href="/">회사이름</a></span> <span class="proceeding3">마감</span>
+								<span><a class="imapgesmall3" href="/">회사이름</a></span> <span class="proceeding3">마감</span>
 							</div>
 
 						</div>
@@ -75,7 +75,7 @@
 								<p>설명글입니다</p>
 							</div>
 							<div class="companyimage">
-								<span><a class="imapgesmall" href="/">회사이름</a></span> 
+								<span><a class="imapgesmall4" href="/">회사이름</a></span> 
 								<span class="proceeding4">마감</span>
 							</div>
 
