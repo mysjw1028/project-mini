@@ -1,6 +1,7 @@
 # MyBatis DB연결 세팅
 ###
-기업소개 페이지 완료 / header.footer 수정해야함
+기업소개 페이지 완료 / header.footer 수정해야함 
+join-> compnay로 변경
 
 
 
