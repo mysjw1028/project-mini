@@ -1,0 +1,234 @@
+.companyinfo {
+	text-align: center;
+	margin-left: -590px;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.companytitle { /*회사정보이름*/
+	margin-bottom: 10px;
+	margin-left: -930px;
+	font-weight: bold;
+}
+
+.minetitle { /*타이틀 아래 내용*/
+	text-align: center;
+	color: #bbb;
+	font-size: 15px;
+	margin-left: -235px;
+	font-size: 15px;
+}
+
+#companynameform {
+	display: inline-block;
+}
+
+.companynamebox { /*회사명 입력칸*/
+	display: inline-block;
+	width: 1000px;
+	height: 40px;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	color: #bbb;
+	padding-left: 10px;
+}
+
+#container { /*전체*/
+	text-align: center;
+}
+
+#Representativeaddressform {
+	display: inline-block;
+}
+
+.Representativeaddress { /*대표자주소*/
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.Representativeaddresstext { /*재표자 주소 입력칸*/
+	margin-bottom: 10px;
+	width: 490px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	color: #bbb;
+	padding-left: 10px;
+}
+
+#representativemailform {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.representativemail { /*대표메일*/
+	text-align: left;
+	margin-top: -5px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.representativemailformtext { /*대표메일입력란*/
+	margin-bottom: 10px;
+	width: 490px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	color: #bbb;
+	padding-left: 10px;
+}
+
+#textboxtitleform { /*사업자번호*/
+	display: inline-block;
+}
+
+.businessnumber { /*사업자번호*/
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.businessnumberform { /*사업자번호입력란*/
+	margin-bottom: 10px;
+	width: 490px;
+	height: 40px;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	color: #bbb;
+	padding-left: 10px;
+}
+
+#regionform { /*지역*/
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.region { /*지역내일 한번 더 수정하기*/
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-left: 6px;
+}
+
+.form-select { /*지역입력란 */
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	width: 490px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	color: gray;
+	padding-left: 10px;
+}
+
+.companyview {
+	text-align: left;
+	margin-left: 341px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.companyabouttusform {
+	display: inline-block;
+	resize: none; /* 사용자 임의 변경 불가 */
+	width: 1000px;
+	height: 146px;
+	border: 1px solid #ccc;
+}
+
+#establishform { /*설립연도*/
+	display: inline-block;
+}
+
+.establishnumber { /*설립연도*/
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.establishyear { /*설립연도*/
+	margin-bottom: 10px;
+	margin-left: 3px;
+	width: 490px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	color: #bbb;
+	padding-left: 10px;
+}
+
+#employeeform { /*지역*/
+	display: inline-block;
+}
+
+.employee { /*직원 수 더 수정하기*/
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 6px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.femployeeorm-select { /*직원 수 */
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	width: 490px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	color: gray;
+	padding-left: 10px;
+}
+
+.form-label {
+	text-align: center;
+	margin-left: -930px;
+	font-weight: bold;
+}
+
+.sel2 {
+	width: 1000px;
+	height: 265px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	color: #bbb;
+	padding-left: 10px;
+}
+
+.agreecheck {
+	color: #bbb;
+}
+
+.form-check-label {
+	width: 257px;
+	color: #bbb;
+	font-weight: bold;
+}
+
+#buttonform { /*이용약관*/
+	display: flex;
+	margin-left: 320px;
+}
+
+.buttoncheck2 { /*제출하기*/
+	text-align: center;
+	margin: 0 0 0 590px;
+	padding-top: 8px;
+	border: solid 1px #ccc;
+	border-radius: 25px;
+	width: 130px;
+	height: 44px;
+	background: #bbb;
+}
+
+.buttoncheck2>a {
+	color: #FFF;
+	text-decoration: none;
+}

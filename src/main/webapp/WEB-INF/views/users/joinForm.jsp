@@ -3,36 +3,35 @@
 <%@ include file="../layout/header.jsp"%>
 
 <header>
-	<div class="centerheader">
+	<div id="centerheader">
 		<br />
-		<h3>
-			<b>회사 정보를 등록해주세요</b>
-		</h3>
-		<div id="minetitle">(이름)는 추천인/후보자들에게 좋은 일자리를 제공하기 위해, 다음정보를 리뷰하여 회사등록을 승인하고 있습니다.</div>
+		<div class="companyinfo">회사 정보를 등록해주세요</div>
+		<div class="minetitle">(이름)는 추천인/후보자들에게 좋은 일자리를 제공하기 위해, 다음정보를 리뷰하여 회사등록을 승인하고 있습니다.</div>
 		<br /> <br />
 		<!-- 회사정보이름 -->
-		<p id="companytitle">회사이름</p>
-		<div class="companynameform">
-			<input id="companynamebox" type="text" name="test" placeholder=" 회사명을 입력해주세요"><br /> <br />
+		<p class="companytitle">회사이름</p>
+		<div id="companynameform">
+			<input class="companynamebox" type="text" name="test" placeholder=" 회사명을 입력해주세요"><br />
+			<br />
 		</div>
 	</div>
 </header>
 
 <!-- 회사정보이름 끝-->
 
-<body class="container">
+<body id="container">
 	<!-- 대표지/대표메일구간 -->
-	<div class="Representativeaddressform">
-		<p id="Representativeaddress">대표자주소</p>
-		<div class="center">
-			<input id="Representativeaddresstext" type="text" name="test" placeholder="대표자 주소를 입력해주세요">
+	<div id="Representativeaddressform">
+		<p class="Representativeaddress">대표자주소</p>
+		<div id="center">
+			<input class="Representativeaddresstext" type="text" name="test" placeholder="대표자 주소를 입력해주세요">
 		</div>
 	</div>
 
-	<div class="representativemailform">
-		<p id="representativemail">대표메일</p>
-		<div class="center">
-			<input id="representativemailformtext" type="text" name="test" placeholder="대표메일을 입력해주세요">
+	<div id="representativemailform">
+		<p class="representativemail">대표메일</p>
+		<div id="center">
+			<input class="representativemailformtext" type="text" name="test" placeholder="대표메일을 입력해주세요">
 		</div>
 	</div>
 
@@ -40,17 +39,17 @@
 	<!-- 대표지/대표메일구간 끝-->
 
 	<!-- 사업자번호/지역-->
-	<div class="textboxtitleform">
-		<p id="businessnumber">사업자번호</p>
-		<div class="centerbusiness">
-			<input id="businessnumberform" type="text" name="test" placeholder="사업자번호 입력해주세요">
+	<div id="textboxtitleform">
+		<p class="businessnumber">사업자번호</p>
+		<div id="centerbusiness">
+			<input class="businessnumberform" type="text" name="test" placeholder="사업자번호 입력해주세요">
 		</div>
 	</div>
 
-	<div class="regionform">
-		<div id=" region">지역</div>
-		<div class="inputbox">
-			<select id="form-select">
+	<div id="regionform">
+		<div class=" region">지역</div>
+		<div id="inputbox">
+			<select class="form-select">
 				<option>지역 입력해주세요</option>
 				<option>test1</option>
 				<option>test2</option>
@@ -63,23 +62,23 @@
 	<!-- 사업자번호/지역 끝-->
 	<!-- 회사소개 -->
 	<div class="companyabouttus">
-		<p>회사소개</p>
-		<input id="companyabouttusform" type="text" name="test">
+		<div class="companyview">회사소개</div>
+		<input class="companyabouttusform" type="text" name="test">
 	</div>
 	<br />
 	<br />
 
-	<div class="establishform">
-		<p id="establishnumber">설립연도</p>
+	<div id="establishform">
+		<p class="establishnumber">설립연도</p>
 		<div class="establish">
-			<input id="establishyear" type="text" name="test" placeholder="ex) 2020년도 ">
+			<input class="establishyear" type="text" name="test" placeholder="ex) 2020년도 ">
 		</div>
 	</div>
 
-	<div class=employeeform>
-		<div id=" employee">직원 수</div>
-		<div class="employeebox">
-			<select id="femployeeorm-select">
+	<div id=employeeform>
+		<div class=" employee">직원 수</div>
+		<div id="employeebox">
+			<select class="femployeeorm-select">
 				<option>회사규모를 선택해주세요</option>
 				<option>test1</option>
 				<option>test2</option>
@@ -88,8 +87,8 @@
 		</div>
 	</div>
 	<br />
-	<p class="form-label">이용약관</p>
-	<select multiple id="sel2" name="sellist2">
+	<div class="form-label">이용약관</div>
+	<select multiple class="sel2" name="sellist2">
 		<option>제 9 조 (개인회원 정보, 이력서 노출)</option>
 		<option>① “개인회원”의 이력서는 개인이 회원가입 또는 이력서 작성 및 수정시 희망한 형태로 이력서를 노출한다.</option>
 		<option>② "회사"는 개인회원이 회원정보, 이력서의 공개/비공개 지정, 이력서상의 연락처 공개/비공개를 자유롭게 선택할 수 있도록 하여야 한다.</option>
@@ -110,21 +109,26 @@
 	<br />
 	<br />
 
-	<div class="buttonform" >
-		<div id="form-check">
-			<input id="agreecheck" type="checkbox" class="form-check-input" id="check1" name="option1"
-				value="something" checked> <label id="form-check-label" for="agree">이용약관에 동의합니다
-				(필수)</label>
+	<div id="buttonform">
+		<div class="form-check">
+			<input class="agreecheck" type="checkbox" class="form-check-input" id="check1" name="option1"
+				value="something" checked> <label class="form-check-label" for="agree">이용약관에
+				동의합니다 (필수)</label>
 		</div>
 
-		<div class="buttoncheckform">
-			<p id="buttoncheck2">제출하기</p>
+		<div id="buttoncheckform">
+			<p class="buttoncheck2">
+				<a href="/">제출하기</a>
+			</p>
+			<!-- 링크이동 -->
 		</div>
 	</div>
-
+	<br />
+	<br />
+	<br />
 </body>
 
-<%@ include file="../layout/footer.jsp"%>
+
 
 
 

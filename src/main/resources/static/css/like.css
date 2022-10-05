@@ -1,0 +1,96 @@
+#fullsetting {
+	background: color #bbb;
+}
+
+#likeheader {
+	
+}
+
+.liketitle {
+	text-align: left;
+	margin-left: 210px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.photo1 {
+	width: 485px;
+	display: flex;
+}
+
+.companytitlephoto {
+	padding-left: 280px;
+}
+
+.cat1 {
+	margin-left: -50px;
+}
+
+.cat2 {
+	margin-left: -300px;
+}
+
+.cat3 {
+	margin-left: -550px;
+}
+
+.cat4 {
+	margin-left: -800px;
+}
+
+.companystory {
+	width: 228px;
+	height: 23px;
+}
+
+.contecttile1 {
+	margin-top: 10px;
+	margin-left: -50px;
+}
+
+.contecttile2 {
+	margin-top: 10px;
+	margin-left: -300px;
+}
+
+.contecttile3 {
+	margin-top: 10px;
+	margin-left: -550px;
+}
+
+.contecttile4 {
+	margin-top: 10px;
+	margin-left: -800px;
+}
+
+.Explanation1 {
+	margin-left: -50px;
+}
+
+.companystory1 {
+	margin-bottom: -2px;
+}
+
+.Explanation2 {
+	margin-left: -300px;
+}
+
+.companystory2 {
+	margin-bottom: -2px;
+}
+
+.Explanation3 {
+	margin-left: -550px;
+}
+
+.companystory3 {
+	margin-bottom: -2px;
+}
+
+.Explanation4 {
+	margin-left: -800px;
+}
+
+.companystory4 {
+	margin-bottom: -2px;
+}
